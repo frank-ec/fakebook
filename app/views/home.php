@@ -36,6 +36,13 @@
                         </div>    
                     </div>
 
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" > <li class="fas fa-key" ></li> </span>
+                            <input type="text" name="password" class="form-control" placeholder="<?= '_LOGIN_' ?>">
+                        </div>    
+                    </div>
+
 
                     <button class="btn btn-primary float-right "><?= '_LOGIN_' ?> </button>
                     <a class="btn btn-link" href="?url=createAccount"><?= '_CREATE_ACCOUNT_' ?> </a>
